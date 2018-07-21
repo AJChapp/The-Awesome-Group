@@ -1,5 +1,5 @@
 
-var apiKey = "973722cd55edcaaf54fc3f29432be2a4";
+var apiKey = "";
 var artist = "";
 var beginDate = "2018-09-09";
 var endDate = "2018-10-10";
