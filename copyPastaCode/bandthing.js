@@ -1,9 +1,9 @@
-var apiKey = "973722cd55edcaaf54fc3f29432be2a4";
+var apiKey = "";
 var artist = "Maroon 5";
 var beginDate = "2018-09-09";
 var endDate = "2018-10-10";
 var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=" + apiKey; + "&date=" + beginDate + "%2C" + endDate;
-var googleURL = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB3Kp0Vsql9BI3aWtF7DzoP1Oja0ZZjWt8"
+var googleURL = "https://maps.googleapis.com/maps/api/js?key="
 
 
 
@@ -24,7 +24,7 @@ $.ajax({
             console.log(response)
             for(i=0;i<response.length; i++){
                 var map;
-                var newP = '';
+                var newP = ;
                 var venueData = response[i].venue
                 var x = parseFloat(venueData.latitude);
                 var y = parseFloat(venueData.longitude);
