@@ -44,3 +44,22 @@ h6{
 .expand-button{
     float: right;
 }
+
+#results{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+th{
+    text-decoration: #50d1fc;
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+
+#map {
+    width: 90%;
+    height: 400px;
+    background-color: grey;
+  }
