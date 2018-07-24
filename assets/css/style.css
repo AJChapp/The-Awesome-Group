@@ -1,6 +1,6 @@
 .search-box{
     width: 95%;
-    height: 630px;
+    height: 650px;
     background-image: url(../images/image.png);
     margin: auto;
     align-items: center;
@@ -8,15 +8,43 @@
     color: #50d1fc;
 }
 
-.find-em-btn{
+.btn{
     background-color: #50d1fc;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+.btn:hover{
+    background-color: #50d1fc;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn:active{
+    color: white;
+    background-color:#46b6db;
+}
+
+#expand-btn{
+    padding: 10px;
+    width: 30px;
+    background-color: rgb(247, 247, 247);
+    color: #50d1fc;
+}
+
+#expand-btn:active{
+    color:#46b6db;
+}
+
 h1{
     font-family: 'Bungee Inline', cursive;
+}
+
+h3{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 72px;
 }
 
 body{
@@ -44,22 +72,83 @@ h6{
 .expand-button{
     float: right;
 }
+.mapHolder{
+    height: 250px;
+    width: 200px;
+}
 
-#results{
-    width: 90%;
+.card-header{
+    background-color: rgb(247, 247, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(231, 231, 231);
+}
+
+.card{
+    background-color: rgb(252, 252, 252);
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgb(231, 231, 231);
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.collapse-holder{
+    background-color: rgb(247, 247, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(231, 231, 231);
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.artist-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.artist-name-row{
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: rgb(231, 231, 231);
+    width: 95%;
     margin: auto;
+    padding-top: 30px;
+}
+
+.artist-image-row{
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 2px;
+    border-top-width: 0px;
+    border-color: rgb(231, 231, 231);
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+#target{
+    padding-top: 30px;
+    
+}
+
+.venue-details{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 55px;
+    background-color: rgb(240, 240, 240);
 }
 
-th{
-    text-decoration: #50d1fc;
-    text-decoration-line: underline;
-    font-size: 20px;
+.tm-col{
+    text-align: center;
+    padding-top: 75px;
 }
 
-#map {
-    width: 90%;
-    height: 400px;
-    background-color: grey;
-  }
+h5{
+    text-decoration: underline;
+    text-decoration-color: #50d1fc;
+}
