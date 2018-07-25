@@ -23,11 +23,6 @@ $(".find-em-btn").on("click" , function(){
     beginDate = $(".start-date").val();
     endDate = $(".end-date").val();
 
-    //console log for test, delete before final push!!
-    console.log(artist);
-    console.log(beginDate);
-    console.log(endDate);
-    console.log(typeof(endDate))
 
     //creation of URL for event call
     bitEventsURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=" + apiKey + "&date=" + beginDate + "%2C" + endDate;
@@ -50,7 +45,7 @@ $(".find-em-btn").on("click" , function(){
             method: "GET"
         })
             .then(function (response) {
-                console.log(response);
+               
 
                 //Pulls artist name and image from response and appends it into target div
                 var artistName = $('<h3 class = "text-center col-12">').text(response.name);
@@ -59,8 +54,6 @@ $(".find-em-btn").on("click" , function(){
                 var artistImageCol = $('<div class = "col-12">');
                 var artistNamerow = $('<div class = "row artist-name-row">');
                 var artistImagerow = $('<div class = "row artist-image-row">');
-
-                console.log(artistImageUrl);
 
                 artistNamerow.append(artistName);
                 artistImageCol.append(artistImage);
@@ -77,7 +70,7 @@ $(".find-em-btn").on("click" , function(){
     })
         .then(function (response) {
             
-            console.log(response);
+            
 
             //variables created to store response information
             var location = "";
@@ -137,15 +130,7 @@ $(".find-em-btn").on("click" , function(){
                     };
                     var ticketLink = response[i].offers[0].url;
 
-                    console.log("Date " + [i + 1] + ": " + date);
-                    console.log("Location " + [i + 1] + ": " + location);
-                    console.log("Time " + [i + 1] + ": " + time );
-                    console.log("Tickets " + [i + 1] + ": " + tickets );
-                    console.log("Venue Name " + [i + 1] + ": " + venueName );
-                    console.log("Latitude " + [i + 1] + ": " + latitude );
-                    console.log("Longitude " + [i + 1] + ": " + longitude );
-                    console.log("Lineup " + [i + 1] + ": " + lineup );
-                    console.log("Ticket Link " + [i + 1] + ": " + ticketLink );
+                    
                     var row= $('<div class="row">');
                     var accordion=$(`<div class="accordion mx-5 mt-5" id="accordion${i}">`);  
                     var card = $('<div class="card">');
@@ -202,7 +187,7 @@ $(".find-em-btn").on("click" , function(){
                 }).then(function(geo){
 
                     streetAddress = geo.results[0].formatted_address
-                    console.log(geo);
+                    console.log(geo)
                     console.log(streetAddress)
 
                     plzWork.push(streetAddress);
