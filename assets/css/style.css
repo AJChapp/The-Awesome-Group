@@ -45,6 +45,7 @@ h1{
 h3{
     font-family: 'Bungee Inline', cursive;
     font-size: 72px;
+    
 }
 
 body{
@@ -57,6 +58,7 @@ h6{
 
 .accordion{
     width: 95%;
+
 }
 
 .dynamic-text{
@@ -81,23 +83,28 @@ h6{
     background-color: rgb(247, 247, 247);
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: rgb(231, 231, 231);
+    border-bottom-color: rgb(0,0,0);
+    width: 100%;
+}
+.resultTitle{
+    margin: auto;
 }
 
 .card{
     background-color: rgb(252, 252, 252);
     border-style: solid;
     border-width: 2px;
-    border-color:  rgb(231, 231, 231);
-    padding-left:15px;
+    border-color:  rgb(0,0,0);
+    /* padding-left: 15px;
     padding-right: 15px;
+     */
 }
 
 .collapse-holder{
     background-color: rgb(247, 247, 247);
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: rgb(231, 231, 231);
+    border-bottom-color: rgb(0,0,0);
     padding-left:15px;
     padding-right: 15px;
 }
@@ -114,7 +121,7 @@ h6{
     border-style: solid;
     border-width: 2px;
     border-bottom-width: 0px;
-    border-color: rgb(231, 231, 231);
+    border-color: rgb(0,0,0);
     width: 95%;
     margin: auto;
     padding-top: 30px;
@@ -125,7 +132,7 @@ h6{
     border-style: solid;
     border-width: 2px;
     border-top-width: 0px;
-    border-color: rgb(231, 231, 231);
+    border-color: rgb(0,0,0);
     width: 95%;
     margin: auto;
     padding-bottom: 30px;
