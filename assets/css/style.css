@@ -1,12 +1,13 @@
 .search-box{
     width: 95%;
     height: 700px;
-    background-image: url(../images/image.png);
+    background-image: url(../images/10-conseils-pour-enflammer-votre-public.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: auto;
     align-items: center;
     justify-content: center;
     color: #50d1fc;
-}
 }
 
 .resultTitle {
@@ -21,7 +22,7 @@
 }
 
 .btn:hover{
-    background-color: #50d1fc;
+    background-color: #3b9fc0;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -40,7 +41,7 @@
 }
 
 #expand-btn:active{
-    color:#46b6db;
+    color:#50d1fc;
 }
 
 h1{
@@ -50,7 +51,6 @@ h1{
 h3{
     font-family: 'Bungee Inline', cursive;
     font-size: 64px;
-    
 }
 
 body{
@@ -63,7 +63,6 @@ h6{
 
 .accordion{
     width: 95%;
-
 }
 
 .dynamic-text{
@@ -147,13 +146,13 @@ h6{
 
 .venue-details{
     text-align: center;
-    padding-top: 55px;
+    padding-top: 65px;
     background-color: rgb(240, 240, 240);
 }
 
 .tm-col{
     text-align: center;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 h5{
