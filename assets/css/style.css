@@ -1,7 +1,9 @@
 .search-box{
     width: 95%;
     height: 700px;
-    background-image: url(../images/image.png);
+    background-image: url(../images/10-conseils-pour-enflammer-votre-public.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: auto;
     align-items: center;
     justify-content: center;
