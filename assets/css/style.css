@@ -1,0 +1,194 @@
+.search-box{
+    width: 95%;
+    height: 700px;
+    background-image: url(../images/10-conseils-pour-enflammer-votre-public.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #50d1fc;
+}
+
+.resultTitle {
+    margin: auto;
+}
+
+.btn{
+    background-color: #50d1fc;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn:hover{
+    background-color: #3b9fc0;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn:active{
+    color: white;
+    background-color:#3b9fc0;
+}
+
+#expand-btn{
+    padding: 10px;
+    width: 30px;
+    background-color: rgb(247, 247, 247);
+    color: #50d1fc;
+}
+
+#expand-btn:active{
+    color:#50d1fc;
+}
+
+h1{
+    font-family: 'Bungee Inline', cursive;
+}
+
+h3{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 64px;
+}
+
+body{
+    font-family: 'Bungee', cursive;
+}
+
+h6{
+    float: left;
+}
+
+.accordion{
+    width: 95%;
+}
+
+.dynamic-text{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 15px;
+}
+
+.fa-plus{
+    padding-top: 10px;
+}
+
+.expand-button{
+    float: right;
+}
+.mapHolder{
+    height: 300px;
+    width: 200px;
+}
+
+.card-header{
+    background-color: rgb(247, 247, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(252, 252, 252);
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgb(231, 231, 231);
+}
+
+.collapse-holder{
+    background-color: rgb(247, 247, 247);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(231, 231, 231);
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.artist-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.artist-name-row{
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: rgb(231, 231, 231);
+    width: 95%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.artist-image-row{
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 2px;
+    border-top-width: 0px;
+    border-color: rgb(231, 231, 231);
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+#target{
+    padding-top: 30px;
+    
+}
+
+.venue-details{
+    text-align: center;
+    padding-top: 65px;
+    background-color: rgb(240, 240, 240);
+}
+
+.tm-col{
+    text-align: center;
+    padding-top: 100px;
+}
+
+h5{
+    text-decoration: underline;
+    text-decoration-color: #50d1fc;
+}
+
+/* @media only screen and (max-width: 1190px) {
+    h3{
+        font-size: 52px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    h3{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+    h3{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 792px) {
+    .search-box{
+        width: 100%;
+        height: 700px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    h3{
+        font-size: 18px;
+    }
+} */
